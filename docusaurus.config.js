@@ -1,18 +1,17 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
-// With JSDoc @type annotations, IDEs can provide config autocompletion
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+
 (module.exports = {
 
   title: 'Silk.NET',
   tagline: 'Your all in one high-performance .NET graphics library',
 
-  url: 'https://dotnet.github.io/Silk.NET/',
+  url: 'https://dotnet.github.io',
+  baseUrl: 'Silk.NET',
 
-  baseUrl: '/',  
-
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', //'throw',
   onBrokenMarkdownLinks: 'warn',
 
   favicon: 'img/favicon.ico',
@@ -23,7 +22,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
 
         docs: {

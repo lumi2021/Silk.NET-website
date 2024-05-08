@@ -158,7 +158,9 @@ html[data-theme='light'] .githubWigdget {
     background-repeat: no-repeat;
     background-position: center;
 }
-html[data-theme='dark'] .githubWigdget .header .githubLogo {filter: invert();}
+html[data-theme='dark'] .githubWigdget .header .githubLogo {
+    filter: invert();
+}
 
 .githubWigdget .header .breadcrumb {
     position: absolute;
@@ -201,12 +203,16 @@ html[data-theme='dark'] .githubWigdget .header .githubLogo {filter: invert();}
         margin-top: 2px;
     }
 }
-html[data-theme='dark'] .githubWigdget .header .discussionsTitle svg {filter: invert();}
+html[data-theme='dark'] .githubWigdget .header .discussionsTitle svg {
+    filter: invert();
+}
 
 .githubWigdget .content {
     position: relative;
     margin: 5px 15px 50px 15px;
-    p { margin: 0; }
+    p {
+        margin: 0;
+    }
 
     .list {
         border-left: 1px solid rgba(0,0,0, 0.5);

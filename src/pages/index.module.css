@@ -60,8 +60,12 @@ html[data-theme='light'] .wordmarkDark {
   font-family: "Gilroy-ExtraBold";
   letter-spacing: 0.4em;
 }
-html[data-theme='dark'] .wordmarkLabel { color: white; }
-html[data-theme='light'] .wordmarkLabel { color: #5820d3; }
+html[data-theme='dark'] .wordmarkLabel {
+  color: white;
+}
+html[data-theme='light'] .wordmarkLabel {
+  color: #5820d3;
+}
 
 .buttonsHolder {
   display: flex;
@@ -192,15 +196,27 @@ html[data-theme='light'] .dotNetLogo .content img {
 
 @media screen and (min-width: 600px)
 {
-  .wordmark.wide { display: block; }
-  .wordmark.thin { display: none; }
-  .wordmarkLabel { display: none; }
+  .wordmark.wide {
+    display: block;
+  }
+  .wordmark.thin {
+    display: none;
+  }
+  .wordmarkLabel {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px)
 {
-  .wordmark.wide { display: none; }
-  .wordmark.thin { display: block; }
-  .wordmarkLabel { display: block; }
+  .wordmark.wide {
+    display: none;
+  }
+  .wordmark.thin {
+    display: block;
+  }
+  .wordmarkLabel {
+    display: block;
+  }
 }
 
 @media screen and (max-height: 700px) and (max-width: 700px)

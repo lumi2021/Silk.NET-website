@@ -61,13 +61,13 @@ function HomepageHeader() {
         {/* just one of these will appear in the page, for each theme and device width */}
 
         <img draggable="false" className={clsx([styles.wordmark, styles.wordmarkDark, styles.wide])}
-        src='/img/wordmarkw.svg'></img>
+        src='/Silk.NET/img/wordmarkw.svg'></img>
         <img draggable="false" className={clsx([styles.wordmark, styles.wordmarkLight, styles.wide])}
-        src='/img/wordmark.svg'></img>
+        src='/Silk.NET/img/wordmark.svg'></img>
         <img draggable="false" className={clsx([styles.wordmark, styles.wordmarkDark, styles.thin])}
-        src='/img/silkdotnet_v3_w.svg'></img>
+        src='/Silk.NET/img/silkdotnet_v3_w.svg'></img>
         <img draggable="false" className={clsx([styles.wordmark, styles.wordmarkLight, styles.thin])}
-        src='/img/silkdotnet_v3.svg'></img>
+        src='/Silk.NET/img/silkdotnet_v3.svg'></img>
 
         <h1 className={styles.wordmarkLabel}>SILK.NET</h1>
 
@@ -148,7 +148,7 @@ function MicrosoftLogo() {
 
       <div className={styles.content}>
         <p>SUPPORTED BY</p>
-        <img src='/img/dotnetfoundation.png'></img>
+        <img src='/Silk.NET/img/dotnetfoundation.png'></img>
       </div>
 
     </div>

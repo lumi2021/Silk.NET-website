@@ -82,7 +82,7 @@ _gl.Clear(ClearBufferMask.ColorBufferBit);
 
 Run your application again, and you should see a lovely sky blue window!
 
-![Sky blue window](assets/1-helloWindow/first-window.png)
+![Sky blue window](assets/2-helloQuad/cornflower-window.png)
 
 Congrats! You've done your first thing in OpenGL!
 
@@ -161,7 +161,7 @@ In modern graphics programming, you are expected to use triangles, lines, or poi
 
 Therefore, a quad is made of two right-angle triangles. This can best be seen if we view the result in **wireframe** mode.
 
-![Wireframe quad](assets/1-helloWindow/first-window.png)
+![Wireframe quad](assets/2-helloQuad/wireframe-quad.png)
 
 In the image, you can also see where the four vertices go in relation to the quad. While you won't *usually* be defining vertices yourself, it's still handy to know how it works.
 
@@ -472,7 +472,7 @@ The stride tells OpenGL the size (in bytes) of a *single* vertex. The offset tel
 
 This diagram gives a visual explanation of what stride and offset do (credit to LearnOpenGL):
 
-![stride and offset](assets/1-helloWindow/first-window.png)
+![stride and offset](assets/2-helloQuad/vertex_attribute_pointer.png)
 
 In our example, the only things we define per vertex is the position of the vertex itself, which is 3 values per vertex. Therefore, our stride is just `3 * sizeof(float)` (remember, stride is in **bytes**, so we must multiply by the size of the float primitive). Since we are only defining one attribute, we don't need to have any offset. Therefore, we can just use `0`. OpenGL expects a `void` pointer, so we must cast it to `void*`.
 
@@ -489,7 +489,7 @@ _gl.BindBuffer(BufferTargetARB.ElementArrayBuffer, 0);
 
 Doing this means we've "un-bound" everything, so calling something like `BufferData` won't affect the buffers we've just created.
 
-:::wart
+:::warning
 You **MUST** unbind the vertex array first, before unbinding the other buffers. If you forget to do it in this order, the buffer will be unbound from the vertex array, meaning you'll see incorrect results when you render the object.
 :::
 
@@ -524,7 +524,7 @@ The last parameter is a pointer to the starting index of the indices. Since we w
 
 And that's it! Run your program and you should see a lovely orange rectangle on a blue background. Exciting, isn't it... Right...?
 
-![Final result](assets/1-helloWindow/first-window.png)
+![Final result](assets/2-helloQuad/final-result-t2.png)
 
 While this may have seen like a lot of set up for a boring result, this code can render pretty much anything you want to the screen. It remains pretty much the same, whether you're rendering a basic quad like this, or a complex 3D model. All you need to change are the vertices & indices going in, and some more complex shader code to handle the transformations.
 
