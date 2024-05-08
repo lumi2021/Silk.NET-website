@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./joinConversation.module.css";
+import styles from "./joinConversation.module.scss";
 import Link from '@docusaurus/Link';
 
 export default function JoinTheConversation(): JSX.Element {

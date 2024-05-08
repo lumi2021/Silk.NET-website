@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./AllinOneSolution.module.css";
+import styles from "./AllinOneSolution.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrowelBricks, faMobileScreen, faFaceSmile } from "@fortawesome/free-solid-svg-icons";
 

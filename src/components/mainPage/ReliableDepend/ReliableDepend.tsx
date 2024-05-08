@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ReliableDepend.module.css";
+import styles from "./ReliableDepend.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeartCirclePlus, faLightbulb, faWrench } from "@fortawesome/free-solid-svg-icons";
 

@@ -58,7 +58,7 @@ html[data-theme='light'] .container .right .learnMore {
 }
 
 html[data-theme='dark'] .container .right .strideLogo {
-    filter: invert();
+    filter: invert(100%);
 }
 
 @media screen and (max-width: 760px)

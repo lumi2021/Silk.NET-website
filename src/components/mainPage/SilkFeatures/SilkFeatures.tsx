@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './SilkFeatures.module.css';
+import styles from './SilkFeatures.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpLong } from '@fortawesome/free-solid-svg-icons/faUpLong';
 import { faRocket } from '@fortawesome/free-solid-svg-icons/faRocket';

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./TryStride.module.css";
+import styles from "./TryStride.module.scss";
 import Link from "@docusaurus/Link";
 
 export default function TryStride(): JSX.Element {

@@ -46,6 +46,10 @@ const darkCodeTheme = themes.dracula;
     ],
   ],
 
+  plugins : [
+    'docusaurus-plugin-sass'
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

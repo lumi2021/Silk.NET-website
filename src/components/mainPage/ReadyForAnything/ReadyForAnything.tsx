@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './ReadyForAnything.module.css';
+import styles from './ReadyForAnything.module.scss';
 
 
 type ApiItem = {

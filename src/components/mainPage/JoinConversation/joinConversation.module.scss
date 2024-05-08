@@ -159,7 +159,7 @@ html[data-theme='light'] .githubWigdget {
     background-position: center;
 }
 html[data-theme='dark'] .githubWigdget .header .githubLogo {
-    filter: invert();
+    filter: invert(100%);
 }
 
 .githubWigdget .header .breadcrumb {
@@ -204,7 +204,7 @@ html[data-theme='dark'] .githubWigdget .header .githubLogo {
     }
 }
 html[data-theme='dark'] .githubWigdget .header .discussionsTitle svg {
-    filter: invert();
+    filter: invert(100%);
 }
 
 .githubWigdget .content {

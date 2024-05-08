@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from './LightBalls.module.css';
+import styles from './LightBalls.module.scss';
 
 
 type LightBall = {
